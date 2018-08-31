@@ -1,6 +1,7 @@
 module.exports = {
   /* Site css */
   css: [
+    'fortune.css',    
     { src: '~/assets/app.css' }
   ],
 
@@ -13,8 +14,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: '{{escape description }}' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fortune-css/dist/fortune.min.css' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
   /* Customize the progress bar color */
